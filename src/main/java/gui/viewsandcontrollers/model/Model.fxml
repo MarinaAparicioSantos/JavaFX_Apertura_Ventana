@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="193.0" prefWidth="209.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.viewsandcontrollers.model.ModelController">
+   <children>
+      <Button fx:id="btnVolver" layoutX="79.0" layoutY="97.0" mnemonicParsing="false" onAction="#volver" text="Volver" />
+      <Label layoutX="49.0" layoutY="52.0" prefHeight="25.0" prefWidth="111.0" text="Soy la ventana hija" textAlignment="CENTER" />
+   </children>
+</AnchorPane>

@@ -35,7 +35,7 @@ public class MainController implements Initializable {
     private void abrirVentanaHija(ActionEvent event) throws IOException {
 
 
-            FXMLLoader loader = new FXMLLoader(getClass().getResource("viewsandcontrollers/model/Model.fxml"));
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("../model/Model.fxml"));
 
 
             Parent root = loader.load();

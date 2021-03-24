@@ -27,6 +27,3 @@ public class Main extends Application {
 	    }
  
 }
-
-//gui.viewsandcontrollers.main --------> primero
-//gui.viewsandcontrollers.model----------> segundo

@@ -58,9 +58,9 @@ public class MainController implements Initializable {
 		dialog.initOwner(parent);
 		dialog.initModality(Modality.APPLICATION_MODAL);
 	
-//		
-//		Label label =(Label)root.getChildrenUnmodifiable().get(0);
-//		label.setText(textfield.getText());
+		
+		Label label =(Label)root.getChildrenUnmodifiable().get(0);
+		label.setText(textfield.getText());
 		dialog.setScene(scene);
 		dialog.show();
 		
